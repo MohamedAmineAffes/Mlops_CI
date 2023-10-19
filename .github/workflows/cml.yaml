@@ -22,4 +22,4 @@ jobs:
           python model.py
           echo "##Model metric" > report.md
           cat metrics.txt >> report.md
-          cml-send-comment report.md
+          #cml-send-comment report.md
